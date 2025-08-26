@@ -69,7 +69,7 @@ window.WMSUtils.getSkucode = function(sku) {
     const cleaned = sku.trim();
     
     // 内部SKU格式：s + 6位数字 + 连字符 + 商品编码
-    if (/^s\d{6}-[a-zA-Z0-9]+$/.test(cleaned)) {
+    if (/^s\d{6}-[a-zA-Z0-9-]+$/.test(cleaned)) {
         // 提取s######-后面的部分作为实际SKU
         return cleaned.replace(/^s\d{6}-/, '');
     }
