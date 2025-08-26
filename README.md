@@ -78,7 +78,7 @@ wms-intercept-trucknumber/
 
 ## 🧪 在线测试
 
-打开 `example.html` 文件即可在浏览器中测试工具库的各种功能。
+打开 `example.html`[https://htmlpreview.github.io/?https://github.com/jun454647/wms-intercept-trucknumber/blob/master/example.html] 文件即可在浏览器中测试工具库的各种功能。
 
 ## 📋 版本历史
 
